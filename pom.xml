@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.scheff</groupId>
-    <artifactId>spring-jersey-helloworld</artifactId>
+    <artifactId>study-german-project</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>spring-jersey-webapp</module>
-        <module>spring-jersey-rest</module>
+        <module>study-german-webapp</module>
+        <module>study-german-rest</module>
     </modules>
 
     <properties>
@@ -36,12 +36,12 @@
         <dependencies>
             <dependency>
                 <groupId>com.scheff</groupId>
-                <artifactId>spring-jersey-rest</artifactId>
+                <artifactId>study-german-rest</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.scheff</groupId>
-                <artifactId>spring-jersey-webapp</artifactId>
+                <artifactId>study-german-webapp</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!-- Spring dependencies -->
